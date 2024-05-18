@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding:0;
+  }
+main{
+    width:70%;
+    margin:25px auto;
+    border:1px solid rgb(255, 138, 28);
+    font-size: 1.2em;
+    background-color: rgb(252, 252, 178);
+    }
+#menu1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu1 a{
+    padding:10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+#menu1 a:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.redondeado a:hover{
+    border: solid 3px rgb(255, 236, 69);
+    color: white;
+    border-radius: 15px;
+}
+#todo{
+    padding: 30px;
+    background-color: rgb(251, 255, 204);
+    list-style-type: none;
+}
+#contenido1{
+    width: 200px;
+    border: solid 1px rgb(255, 105, 36);
+    position: relative;
+    left: 65px;
+    text-align: center;
+
+}
+#menus{
+    display: flex;
+}
+#menu{
+    position: relative;
+    left: 100px;
+    display: flex;
+    border: solid 1px rgb(255, 135, 15);
+    width: 610px;
+    justify-content: space-evenly;
+
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px; /* Espacio entre cada elemento del menú */
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre la imagen y el nombre */
+    padding-top:25px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.menu-item img {
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+}
+
+.menu-item span {
+    font-size: 1.2em; /* Tamaño del texto */
+}
+
+
+#menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 25px;
+    background-color:rgb(251, 255, 204) ;
+    }
+#pie{
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#menu2 a{
+    padding:10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu2 a:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+#redes{
+    display: flex;
+    position: relative; 
+    left: 65px;
+}
+#credito{
+    display: flex;
+    position: relative;
+    left: 65px;
+}
+#libro{
+    display: flex;
+    position: relative;
+    right: 65px;
+}
