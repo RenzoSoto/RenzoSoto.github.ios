@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="contactos.css">
+    <link rel="shortcut icon" href="imagenes/pestaña.jfif">
+</head>
+<body>
+    <main>
+        <header>
+            <div id="mc">
+                <li><a href="index.html"><h1>McColyns</h1></a></li>
+            </div>
+            <br>
+            
+            <div id="menu1">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href= "nosotros.html">NOSOTROS</a></li >  
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href= "videos.html">VIDEOS</a></li >
+                <li><a href= "contactos.html">CONTACTOS</a></li >       
+            </div>
+            <br>
+        </header>
+        <section id="contenido">
+            <div id="informacion"><br>
+                <h3>Informacion del Contacto</h3><br>
+                <table id="tabla">
+                    <tr>
+                        <td style="background-color: rgb(72, 2, 100); color: white;">Direccion</td>
+                        <td>Jr Leoncio Prado 458, Surquillo - Lima. <br>Jr Leoncio 564, La Victoria - Lima. </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(72, 2, 100); color: white;">Telefono</td>
+                        <td>971968809 01-3968029</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(72, 2, 100); color: white;">Email</td>
+                        <td>info@mccolinsperu</td>
+                    </tr>
+                </table><br>
+                <h3>Horario de Atencion Presencial</h3><br>
+                <tr>
+                    <table>
+                        <td style="background-color: rgb(72, 2, 100); color: white;"><br>Area de Ventas: <br>Atencion  de 8am a 6pm <br>En Todo Nuestros Centros <br><br></td>
+                
+                    </table>
+                </tr><br>
+                <div class="contenedor">
+                    <div class="imagen-con-degradado"></div>
+                </div>
+                
+            </div>
+            <div id="formulario">
+                <div class="formulario">
+                    <form action="">
+                        <h3>Dejanos Tu Comnetario</h3><br><br>
+                        <label for="nombre">Nombre y Apellido:</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                        <label for="celular">Número de Celular:</label>
+                        <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" required><br><br>
+                        <label for="ruc">RUC:</label>
+                        <input type="text" id="ruc" name="ruc" pattern="[0-9]{13}" required><br><br><br>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="8" cols="24" required></textarea><br><br>
+                        <div class="botones">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </section><br>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9213871638676!2d-77.02677352610317!3d-12.117531243220036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81067ae3c91%3A0x6a69098f09d7c232!2sJir%C3%B3n%20Leoncio%20Prado%20458%2C%20Lima%2015047!5e0!3m2!1ses-419!2spe!4v1718681518531!5m2!1ses-419!2spe" width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe >
+        </div>
+        <br><br><br>
+        <div id="d1">siguenos en nuetras redes</div>
+        <div id="iconos">
+            <div><a href="https://web.whatsapp.com/"><img src="imagenes/WhatsApp.jpeg" alt="" width="50px" class="circulo"></a ></div>
+            <div><a href="https://www.youtube.com/watch?v=ykCqbQ3He-M"><img src="imagenes/yt.jpeg" alt="" width="50px" class="circulo"></a></div>
+            <div><a href="https://www.facebook.com/mc.colins.1/"><img src="imagenes/fb.jpeg" alt="" width="50px" class="circulo"></a></div>
+            <div><a href="https://www.instagram.com/mccolinsperu/"><img src="imagenes/ig.jpeg" alt="" width="50px" class="circulo"></a></div>
+        </div>
+    </main>
+    <audio id="audio-hidden" autoplay volume="0.50" loop >
+        <source src="audio/audio McColyns.mpeg" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</body>
+</html>
