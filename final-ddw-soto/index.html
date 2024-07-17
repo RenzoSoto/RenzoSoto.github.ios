@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo-renzo.jpeg">
+    <style>
+        .img-small {
+            width: 100px; 
+            height: 100px; 
+            object-fit: cover;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .rounded-circle {
+            border-radius: 50%;
+        }
+        .testimonial-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            
+        }
+        .btn {
+            display: inline-block;
+            background-color: #00cfff;
+            color: #fff;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #00b5e5;
+        }
+
+        .btn span {
+            display: inline-block;
+            transition: transform 0.3s;
+        }
+
+        .btn:hover span {
+            transform: translateX(5px);
+        }
+        .centro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col border">
+                <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark px-3 mb-3">
+                    <div class="d-flex align-items-center">
+                        <img id="border" src="img/logo-renzo.jpeg" alt="" width="60">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobremi">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonialCarousel">Testimonios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pie">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <div id="perfil">
+                        <img id="border" src="img/perfil-renzo.jpeg" alt="" width="150">
+                        <h4 id="hola">Hola, soy Renzo Soto</h4>
+                        <p>Soy estudiante en el instituto de Isil, me gusta la programación y el diseño web</p>
+                        <img src="img/programador.avif" alt="" width="500px" class="img-fluid">
+                        
+                    </div>
+                    <div id="sobremi">
+                       <h4 id="hola">Conoce más sobre Renzo</h4><br>
+                       <p id="scrollspyHeading1">Hola, soy Renzo Soto. Soy un estudiante responsable y amigable, apasionado por la tecnología y el desarrollo web. Actualmente, estoy cursando un programa de diseño y desarrollo web, donde he adquirido habilidades clave en la creación de sitios y aplicaciones web eficientes y visualmente atractivas. Mi dedicación al estudio y mi entusiasmo por el aprendizaje continuo me permiten estar al día con las últimas tendencias y tecnologías del sector.
+                        Además, me considero una persona colaborativa y proactiva, siempre dispuesta a trabajar en equipo y a compartir conocimientos con mis compañeros. Mi objetivo es aplicar mis habilidades para desarrollar proyectos que no solo cumplan con los estándares técnicos, sino que también proporcionen una excelente experiencia de usuario.</p> 
+                        
+                    </div><br>
+                    <div class="card-group">
+                        <div class="card text-center">
+                            <img src="img/ddw.png" class="card-img-top rounded-circle img-small mx-auto" alt="Desarrollo Web">
+                            <div class="card-body">
+                                <h5 class="card-title">Desarrollo Web</h5>
+                                <p class="card-text">Después de completar mi curso de diseño y desarrollo web, soy capaz de diseñar sitios web visualmente atractivos. Imagina esos sitios que hacen que la gente diga “¡Guau!” cuando los visita. Y no solo eso, también tendría en mi caja de herramientas el conocimiento necesario para construir esos sitios desde cero. ¿Cómo? Bueno, dominaría los lenguajes esenciales como HTML, CSS y JavaScript. Esos son los ingredientes mágicos para crear páginas web interactivas y receptivas. ☕️😊</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">HTML</button>
+                                <button type="button" class="btn btn-danger">CSS</button>
+                                <button type="button" class="btn btn-primary">JS</button>
+                                
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <img src="img/dg.png" class="card-img-top rounded-circle img-small mx-auto" alt="Diseño Grafico">
+                            <div class="card-body">
+                                <h5 class="card-title">Diseño Grafico</h5>
+                                <p class="card-text">Tengo la capacidad de crear y editar imágenes, diseñar gráficos vectoriales detallados y elaborar diseños complejos. Además, puedo maquetar y diseñar documentos tanto para medios impresos como digitales con alta precisión y calidad. Estos programas no solo me han proporcionado habilidades técnicas avanzadas en diseño gráfico, sino también un entendimiento profundo de los principios fundamentales del diseño visual y cómo comunicar efectivamente a través de diferentes medios.🎨💻</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Photoshop</button>
+                                <button type="button" class="btn btn-danger">Ilustrator</button>
+                                <button type="button" class="btn btn-primary">Indesing</button>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <img src="img/estudiante.png" class="card-img-top rounded-circle img-small mx-auto" alt="Estudiante">
+                            <div class="card-body">
+                                <h5 class="card-title">Estudiante</h5>
+                                <p class="card-text">Después de aprender diseño web y diseño gráfico, . Ahora tengo la capacidad de crear sitios web funcionales , utilizando HTML, CSS y JavaScript para desarrollar interactividad y responsividad. Además, he adquirido habilidades en el diseño gráfico con herramientas como Photoshop e Illustrator, permitiéndome crear desde logotipos y ilustraciones. Gracias a mis profesore estoy mejorando continuamente mi capacidad de comunicar ideas visualmente efectivas.😊💻</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Aceptar</button>
+                                <button type="button" class="btn btn-danger">Cancelar</button>
+                                <button type="button" class="btn btn-success">Ver Mas</button>
+                                
+                            </div>
+                        </div>
+                    </div><br>
+                    <div id="proyectos">
+                        <h4 id="hola">Mis Proyectos</h4>
+                        <p>Estos son algunos de los trabajos que he realizado en el curso</p>
+                        <div class="row">
+                            <div class="col-md-6 col-12 mb-4">
+                                <img src="img/Captura de pantalla (148).png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-md-6 col-12 mb-4">
+                                <img src="img/Captura de pantalla (149).png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-md-6 col-12 mb-4">
+                                <img src="img/Captura de pantalla (150).png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-md-6 col-12 mb-4">
+                                <img src="img/Captura de pantalla (151).png" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <a href="#" class="btn" onclick="verMasArticulos()">
+                            Ver más Proyectos <span>➔</span>
+                        </a>
+                                               
+                    </div><br><br>   
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Más recientes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">¿Para qué se usa Python? 10+ usos del lenguaje de programación Python</a></td>
+                            </tr>
+                        </tbody>
+                    </table><br>
+                    <div class="centro">
+                        <a href="#" class="btn" onclick="verMasArticulos()">
+                        Ver más artículos <span>➔</span>
+                        </a>
+                    </div>
+                    
+                    <br><br>
+
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <h4 id="hola">Testimonios</h4>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/chico-.avif" class="testimonial-img mx-auto d-block" alt="Cliente 1">
+                                <div>
+                                    <p>"Excelente servicio, muy satisfecho con el servicio, ya que cumplio con los requerimientos que le pedi, la entrega fue puntual y sin contratiempos eso si tiens que brindar una informacion clara para que se pueda hacer un buen trabajo."</p>
+                                </div><br>
+                                <div class="carousel-caption">
+                                    <div class="star-rating">
+                                        &#9733; &#9733; &#9733; &#9733; &#9734;
+                                        <h6>Carlos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/-joven.avif" class="testimonial-img mx-auto d-block" alt="Cliente 2">
+                                <div>
+                                    <p>"Gran calidad y entrega rápida. lo recomiendo para aquellos que necesitan crear una página web para su negocios o empresas, ya que actualmente la mayoría solicitan estos sitios web para maximizar tus ventas o para compartir información."</p>
+                                </div><br>
+                                <div class="carousel-caption">
+                                    <div class="star-rating">
+                                        &#9733; &#9733; &#9733; &#9733; &#9733;
+                                        <h6>Juan</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/perfil-resilencia.jpg" class="testimonial-img mx-auto d-block" alt="Cliente 3">
+                                <div>
+                                    <p>"El trabajo superó mis expectativas. Volveré a solicitarlo y lo recomendaré a unos amigos para que también puedan solicitar su trabajo ya que me parece muy bueno y espero que siga trabajando de la misma forma con la que la está haciendo ahora."</p>
+                                </div><br>
+                                <div class="carousel-caption">
+                                    <div class="star-rating">
+                                        &#9733; &#9733; &#9733; &#9733; &#9734;
+                                        <h6>Maria</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                    </div>
+                    <div id="pie" >
+                        <img id="border" src="img/logo-renzo.jpeg" alt="" width="60">
+                        <hr>
+                        <h5>Aprendo y creo todo los dias.</h5>
+                        <h5>Creemos un proyecto juntos.</h5>
+                        <div id="iconos">
+                            <div><a href="jhonrenzosoto@gmail.com"><img src="img/gmail.webp" alt="" width="50px" class="circulo"></a ></div>
+                            <div><a href="https://www.instagram.com/mccolinsperu/"><img src="img/iconoig.jpg" alt="" width="50px" class="circulo"></a></div>
+                            <div><a href="https://www.facebook.com/mc.colins.1/"><img src="img/black.fb.jpg" alt="" width="50px" class="circulo"></a></div>
+                            <div><a href="https://github.com/RenzoSoto/RenzoSoto.github.ios"><img src="img/github.png" alt="" width="50px" class="circulo"></a></div>
+                            <div><a href="linkedin.com/in/jhon-renzo-soto-reymundo-079082308"><img src="img/linkending.png" alt="" width="50px" class="circulo"></a></div>
+                        </div>
+                        <br><br>
+                        <p>Creado por renzo soto (2024) (C)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
